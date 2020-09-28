@@ -32,6 +32,30 @@ body {
     background-color: var(--color2);
 }
 
+img {
+    width: 1000px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  #result-button {
+      display: none;
+      width: 7em;
+  }
+
+  #button {
+      width: 7em;
+      display: block;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
 main {
     display: flex;
     flex-direction: column;
