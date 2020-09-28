@@ -1,5 +1,9 @@
-// import functions and grab DOM elements
+import { countsAsYes } from './counts-as-a-yes.js'
 
-// initialize state
+//DOM elements
+const userInput = document.getElementById('resutls');
+const button = document.getElementById('button');
 
-// set event listeners to update state and DOM
+button.addEventListener('click', () => {
+  
+});
